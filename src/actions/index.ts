@@ -15,3 +15,10 @@ export async function editSnippet(id:number , code:string){
 
 
 }
+
+export async function deleteSnippet(id:number){
+    await db.snippet.delete({
+        where:{id}
+    });
+    redirect('/');
+}

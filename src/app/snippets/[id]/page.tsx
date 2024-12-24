@@ -40,4 +40,4 @@ export default async function SnippetShowPage(props: SnippetShowPageProps) {
         
     </div>
 
-}OZZY1980
+}
